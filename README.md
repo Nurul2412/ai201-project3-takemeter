@@ -144,9 +144,6 @@ Model	Accuracy
 Groq Zero-Shot Baseline	87.5%
 Fine-Tuned DistilBERT	62.5%
 
- Running inference on test set...
-
-🎯 Fine-tuned model accuracy: 0.625
 
 ### per-class metrics (fine-tuned model):
               precision    recall  f1-score   support
