@@ -115,7 +115,11 @@ Google Colab
 
 Training Decision
 
-I used the provided train/test split and fine-tuned DistilBERT on the labeled dataset.
+Training Decision
+
+I fine-tuned DistilBERT for 6 epochs on the labeled dataset using Google Colab.
+
+During training, validation accuracy improved from approximately 25% in the early epochs to about 72% by the final epoch, showing that the model was learning the label patterns in the dataset.
 
 The goal was to learn distinctions between highly similar categories such as Opinion and Hot_Take, and Fact and Theory.
 
@@ -229,19 +233,7 @@ The biggest challenge was maintaining consistent labels across similar posts. Th
 
 If I continued this project, I would collect additional examples specifically focused on Theory vs Hot_Take boundary cases and provide clearer annotation guidelines for controversial opinions.
 
-## 12. AI Usage
-
 ## 11. AI Usage
-
-### Example 1
-
-I used ChatGPT during the dataset creation process to review label definitions and identify edge cases between Opinion and Hot_Take. All final labeling decisions were reviewed and made manually.
-
-### Example 2
-
-I used ChatGPT to analyze model errors and identify recurring confusion patterns between Theory and Hot_Take. This helped me understand why certain posts were misclassified.
-
-### Example 3
 
 ### 1
 
